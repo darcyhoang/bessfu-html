@@ -70,7 +70,16 @@ CSS LIST
 .main-color {
   color: #FEF200;
 }
-
+/* của tiến */
+.text-hover{
+  font-weight: 600 !important;
+}
+.text-hover:hover {
+  color: #ffc107 !important; 
+}
+.progressbar.progress{
+  background-color: red !important;
+}
 /*
  ::::::::::::::::::::::::::
   ANIMATION AREA CSS
