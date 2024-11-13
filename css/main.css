@@ -75,11 +75,11 @@ CSS LIST
   font-weight: 600 !important;
 }
 .text-hover:hover {
-  color: #ffc107 !important; 
+  color: #FEF200 !important; 
 }
-.progressbar.progress{
-  background-color: red !important;
-}
+
+
+/* Tạo thanh tiến trình */
 /*
  ::::::::::::::::::::::::::
   ANIMATION AREA CSS
@@ -1991,6 +1991,7 @@ body.body {
  */
 :root {
   --ztc-text-text-1: #0D0E10;
+  --ztc-text-text-1-hover: #FEF200;
   --ztc-text-text-2: #fff;
   --ztc-text-pera-text-1: #676879;
   --ztc-text-pera-text-2: #D2D1D5;
@@ -4286,7 +4287,7 @@ a.header__search.header-search-btn p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #99ff00;
+  background-color: #000;
   border-radius: 25px;
   z-index: -1;
   transform: rotateY(90deg);
@@ -4295,7 +4296,7 @@ a.header__search.header-search-btn p {
 }
 
 .theme-btn2:hover {
-  color: var(--ztc-text-text-1);
+  color: var(--ztc-text-text-1-hover);
   transition: all 0.4s;
   transform: translateY(-5px);
 }
@@ -12848,15 +12849,15 @@ a.header__search.header-search-btn p {
   content: "";
   top: 60px;
   left: 0;
-  height: 100%;
+  height: 83%;
   width: 100%;
-  background-image: url(../images/hero2-main-bg2.png);
+  background-image: url(../images/bessfu/11383071.png);
   z-index: -1;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   animation-name: shape-animaiton4;
-  animation-duration: 92s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -12878,7 +12879,7 @@ a.header__search.header-search-btn p {
   top: -100px;
   right: 0;
   animation-name: shape-animaiton4;
-  animation-duration: 82s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
@@ -17216,7 +17217,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 50%;
   padding: 5px;
   margin: 5px;
-  background-color: rgba(161, 233, 52, 0.4745098039);
+  background-color: #fff;
 }
 
 .testimonial2 .owl-dots button.active {
