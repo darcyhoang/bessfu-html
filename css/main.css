@@ -12858,9 +12858,10 @@ a.header__search.header-search-btn p {
   background-size: contain;
   animation-name: shape-animaiton4;
   animation-duration: 40s;
-  animation-iteration-count: infinite;
+  animation-iteration-count:infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+
 }
 
 .hero2 .hero2-main-imges {
