@@ -78,6 +78,27 @@ CSS LIST
   color: #FEF200 !important; 
 }
 
+.porgress-line-all {
+  border: 1px solid #8c93fb;
+  background: radial-gradient(circle at left bottom, #ad22e0 10%, #5049c2 20%, rgba(87, 78, 255, 0) 60%);
+}
+
+.servcie2 .servcie2-box::before {
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #8a7cee;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+.servcie2 .servcie2-box:hover .icon {
+  border: 1px solid #E5B3F4;
+  background-color: #00012014;
+}
 
 /* Tạo thanh tiến trình */
 /*
@@ -12899,7 +12920,7 @@ a.header__search.header-search-btn p {
 
 .hero2 .hero2-main-imge2 {
   position: absolute;
-  bottom: -130px;
+  bottom: 0px;
   right: -45px;
   transform: scale(0.9);
 }
