@@ -3309,7 +3309,7 @@ body.body {
     background: #1c305b !important;
   }
   .about2.pt-5, .hero2 {
-    background: #111031  !important;
+    background: #080729 !important;
   }
   .servcie2, .solution, .work2   {
     background: #111031;
@@ -3318,6 +3318,9 @@ body.body {
   .footer2 {
     padding-top: 100px;
     background: #252442;
+  }
+  .mobile-header.mobile-header-main {
+    background: #080729 !important;
   }
 
 }
